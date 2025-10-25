@@ -1,0 +1,51 @@
+\documentclass[14pt,a4paper,french]{scrartcl}
+
+\usepackage{verse}
+\usepackage{babel}
+\usepackage{microtype}
+
+\usepackage{fontspec}
+\setmainfont[Ligatures=Discretionary]{EB Garamond}
+%\setmainfont[Ligatures=Discretionary]{Palatino Linotype}
+
+% https://tex.stackexchange.com/a/123669/295527
+%\frenchsetup{StandardItemLabels=true}
+
+\begin{document}
+
+\settowidth{\versewidth}{Un riche laboureur, sentant sa mort prochaine,}
+
+\begin{verse}\poemtitle{Le Laboureur et ses Enfants.}
+\vin Travaillez, prenez de la peine:\\
+\vin C'est le fonds\footnotemark{} qui manque le moins.\\
+Un riche laboureur, sentant sa mort prochaine,\\
+Fit venir ses enfants, leur parla sans témoins.\\
+Gardez-vous, leur dit-il, de vendre l'héritage\\
+\vin Que nous ont laissé nos parents :\\
+\vin Un trésor est caché dedans.\\
+Je ne sais pas l'endroit ; mais un peu de courage\\
+Vous le fera trouver : vous en viendrez à bout.\\
+Remuez votre champ dès qu'on aura fait l'oût :\\
+Creusez, fouillez, bêchez ; ne laissez nulle place\\
+\vin Où la main ne passe et repasse.\\
+Le père mort, les fils vous retournent le champ,\\
+Deça, delà, partout ; si bien qu'au bout de l'an\\
+\vin Il en rapporta davantage.\\
+D'argent, point de caché. Mais le père fut sage\\
+\vin De leur montrer, avant sa mort,\\
+\vin Que le travail est un trésor.
+\end{verse}.
+
+\begin{flushright}
+\large
+\textsc{La Fontaine}, \textit{Fables}.
+\end{flushright}
+
+\footnotetext{Un \textit{fonds}, c'est :
+\begin{itemize}
+\item\primo Le sol d'un champ, d'une terre, d'un domaine. Cultiver un fonds. Un bon fonds. Il ne faut pas bâtir sur le fonds d'autrui.
+\item\secundo Par extension, une somme d'argent plus ou moins considérable destinée à quelque usage. Trouver un fonds. Dissiper un fonds. Avoir des fonds considérables.
+\item\tertio Un bien, un capital quelconque, par opposition aux revenus qu'il produit.
+\end{itemize}}
+
+\end{document} 
