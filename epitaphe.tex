@@ -1,0 +1,108 @@
+\documentclass[11pt,a4paper,french]{scrartcl}
+
+\usepackage{babel}
+\usepackage{microtype}
+
+\usepackage{fontspec}
+%\setmainfont[Ligatures=Discretionary]{EB Garamond}
+%\setmainfont[Ligatures=Discretionary]{Palatino Linotype}
+\setmainfont{EBGaramond}
+[
+  Extension      = .otf ,
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-Bold,
+  BoldItalicFont = *-BoldItalic,
+  Numbers        = Lowercase,
+  Ligatures      = Discretionary,
+  Style          = Swash
+]
+%\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{UnifrakturMaguntia}
+%\setmainfont{Junicode}
+%\setmainfont{TeX Gyre Schola}
+%\setmainfont{TeX Gyre Bonum}
+%\setmainfont{TeX Gyre Termes}
+%\setmainfont{Libertinus Serif}
+%\setmainfont{Erewhon}
+%\setmainfont{Vollkorn}
+%\setmainfont{Cabin}
+%\setmainfont{Medieval Sharp}
+%\setmainfont{TeX Gyre Pagella}
+%\setmainfont{Latin Modern Roman}
+%\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont[Numbers=OldStyle]{Junicode}
+
+\usepackage{verse}
+%\usepackage{showframe}
+
+\begin{document}
+\thispagestyle{empty}
+\settowidth{\versewidth}{Frères humains, qui après nous vivez,}
+
+% L'EPITAPHE
+% EN FORME DE BALLADE
+% Que feit Villon pour luy et ses compagnons, s'attendant
+% estre pendu avec eulx.
+
+%\poemtitle[]{%
+%\begin{tabular}{c}
+%L'EPITAPHE\\EN FORME DE BALLADE\\Que feit Villon pour luy et ses compagnons, s'attendant\\estre pendu avec eulx.
+%\end{tabular}%
+%}
+
+\poemtitle[]{%
+\begin{tabular}{c}L'EPITAPHE\end{tabular}\\
+\medskip\small%
+\begin{tabular}{c}EN FORME DE BALLADE\end{tabular}\\
+\medskip\footnotesize%
+\begin{tabular}{c}Que feit Villon pour luy et ses compagnons, s'attendant\\estre pendu avec eulx.\end{tabular}}
+
+\begin{verse}[\versewidth]
+\vin Frères humains, qui après nous vivez,\\
+N'ayez les cueurs contre nous endurciz,\\
+Car, si pitié de nous pouvres avez,\\
+Dieu en aura plustost de vous merciz.\\
+Vous nous voyez cy attachez cinq, six :\\
+Quant de la chair, que nous avons nourrie,\\
+Elle est pieça dévorée et pourrie,\\
+Et nous, les os, devenons cendre et pouldre.\\
+De nostre mal personne ne s'en rie,\\
+Mais priez Dieu que tous nous vueille absouldre !
+
+\vin Se vous clamons, frères, pas n'en devez\\
+Avoir desdaing, quoyque fusmes occis\\
+Par justice. Toutesfois, vous sçavez\\
+Que tous les hommes n'ont pas bon sens assis ;\\
+Intercédez doncques, de cueur rassis,\\
+Envers le Filz de la Vierge Marie,\\
+Que sa grace ne soit pour nous tarie,\\
+Nous préservant de l'infernale fouldre.\\
+Nous sommes morts, ame ne nous harie ;\\
+Mais priez Dieu que tous nous vueille absouldre !
+
+\vin La pluye nous a debuez et lavez,\\
+Et le soleil dessechez et noirciz ;\\
+Pies, corbeaux, nous ont les yeux cavés,\\
+Et arrachez la barbe et les sourcilz.\\
+Jamais, nul temps, nous ne sommes rassis ;\\
+Puis çà, puis là, comme le vent varie,\\
+A son plaisir sans cesser nous charie,\\
+Plus becquetez d'oyseaulx que dez à coudre.\\
+Ne soyez donc de nostre confrairie,\\
+Mais priez Dieu que tous nous vueille absoudre !
+
+\hspace{0.5\versewidth}{\poemtitlefont\small%
+ENVOI.
+}%
+
+\vin Prince \textsc{Jesus}, qui sur tous seigneurie,\\
+Garde qu'Enfer n'ayt de nous la maistrie :\\
+A luy n'ayons que faire ne que souldre.\\
+Hommes, icy n'usez de mocquerie\\
+Mais priez Dieu que tous nous vueille absouldre !
+\end{verse}
+
+% https://gallica.bnf.fr/ark:/12148/bpt6k6468587z/f129.item.texteImage
+
+\end{document}
