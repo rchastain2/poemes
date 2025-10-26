@@ -1,0 +1,112 @@
+\documentclass[a4paper,14pt,french]{extarticle}
+
+\usepackage{fontspec}
+\usepackage[french]{babel}
+\usepackage{microtype}
+\usepackage{verse}
+
+\setmainfont{EBGaramond}
+[
+  Extension      = .otf ,
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-Bold,
+  BoldItalicFont = *-BoldItalic,
+  Numbers        = Lowercase,
+  Ligatures      = Discretionary,
+  Style          = Swash
+]
+% https://texnique.fr/osqa/questions/8423/lualatex-et-ligatures
+
+\settowidth{\versewidth}{Félons païens furent mal inspirés de venir aux défilés :}
+
+\usepackage[margin=16mm,bmargin=24mm]{geometry}
+
+%\pagestyle{empty}
+
+\begin{document}
+%\thispagestyle{empty}
+
+\poemtitle{L'entêtement de Roland.}
+
+\small
+\textit{Alors que l'armée de Charlemagne, revenant d'Espagne, traverse les Pyrénées, son arrière-garde est attaquée par les Sarrasins.}
+\normalsize
+
+\begin{verse}[\versewidth]
+Olivier dit : Païens ont grande force,\\
+Et nos Français, ce semble, en ont bien peu.\\
+Ami Roland, sonnez de votre cor :\\
+Charles l’entendra, et fera retourner son armée.\\
+— Je serais bien fou, répond Roland ;\\
+Dans la douce France, j’en perdrais ma gloire.\\
+Non, mais je frapperai grands coups de Durendal ;\\
+Le fer en sera sanglant jusqu’à l’or de la garde.\\
+Félons païens furent mal inspirés de venir aux défilés :\\
+Je vous jure que, tous, ils sont jugés à mort !
+
+— Ami Roland, sonnez votre olifant :\\
+Charles l’entendra et fera retourner la grande armée.\\
+Le Roi et ses barons viendront à notre secours.\\
+— À Dieu ne plaise, répond Roland,\\
+Que mes parents jamais soient blâmés à cause de moi,\\
+Ni que France la douce tombe jamais dans le déshonneur !\\
+Non, mais je frapperai grands coups de Durendal,\\
+Ma bonne épée, que j’ai ceinte à mon côté.\\
+Vous en verrez tout le fer ensanglanté.\\
+Félons païens sont assemblés ici pour leur malheur :\\
+Je vous jure qu’ils seront tous livrés à mort !
+
+— Ami Roland, sonnez votre olifant.\\
+Le son en ira jusqu’à Charles qui passe aux défilés,\\
+Et les Français, j’en suis certain, retourneront sur leurs pas.\\
+— À Dieu ne plaise, lui répond Roland,\\
+Qu’il soit jamais dit par aucun homme vivant\\
+Que j’ai sonné mon cor à cause des païens !\\
+Je ne ferai pas aux miens ce déshonneur.\\
+Mais quand je serai dans la grande bataille,\\
+J’y frapperai dix-sept cents coups :\\
+De Durendal vous verrez le fer tout sanglant.\\
+Français sont bons : ils frapperont en braves ;\\
+Les Sarrasins ne peuvent échapper à la mort !
+
+— Je ne vois pas où serait le déshonneur, dit Olivier.\\
+J’ai vu, j’ai vu les Sarrasins d’Espagne ;\\
+Les vallées, les montagnes en sont couvertes,\\
+Les landes, toutes les plaines en sont cachées.\\
+Qu’elle est puissante, l’armée de la gent étrangère,\\
+Et que petite est notre compagnie !\\
+— Tant mieux, répond Roland, mon ardeur s’en accroît :\\
+Ne plaise à Dieu, ni à ses très-saints anges,\\
+Que France, à cause de moi, perde de sa valeur !\\
+Plutôt mourir qu’être déshonoré :\\
+Plus nous frappons, plus l’Empereur nous aime !
+
+Roland est preux, mais Olivier est sage ;\\
+Ils sont tous deux de merveilleux courage.\\
+Puis d’ailleurs qu’ils sont à cheval et en armes,\\
+Ils aimeraient mieux mourir que d’esquiver la bataille.\\
+Les comtes ont l’âme bonne, et leurs paroles sont élevées...\\
+Félons païens chevauchent par grande ire :\\
+Voyez un peu, Roland, dit Olivier ;\\
+Les voici, les voici près de nous, et Charles est trop loin.\\
+Ah ! vous n’avez pas voulu sonner de votre cor ;\\
+Si le grand Roi était ici, nous n’aurions rien à craindre.\\
+Jetez les yeux là-haut, vers les monts d’Espagne :\\
+Vous y verrez dolente arrière-garde.\\
+Tel s’y trouve aujourd’hui qui plus jamais ne sera dans une autre.\\
+— Honteuse, honteuse parole, répond Roland.\\
+Maudit soit qui porte un lâche cœur au ventre !\\
+Nous tiendrons pied fortement sur la place :\\
+De nous viendront les coups, et de nous la bataille !
+\end{verse}
+
+\begin{flushright}
+\large
+\textit{Chanson de Roland}, laisses \textsc{lxxxiii} à \textsc{lxxxvii}.
+
+\medskip
+\small
+Traduction de Léon Gautier.
+\end{flushright}
+\end{document}
