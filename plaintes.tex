@@ -1,0 +1,84 @@
+\documentclass[11pt,a6paper,french]{scrartcl}
+
+\usepackage{babel}
+\usepackage{microtype}
+
+\usepackage{fontspec}
+%\setmainfont[Ligatures=Discretionary]{EB Garamond}
+%\setmainfont[Ligatures=Discretionary]{Palatino Linotype}
+\setmainfont{EBGaramond}
+[
+  Extension      = .otf,
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-Bold,
+  BoldItalicFont = *-BoldItalic,
+  Numbers        = Lowercase,
+  Ligatures      = Discretionary,
+  Style          = Swash
+]
+%\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{UnifrakturMaguntia}
+%\setmainfont{Junicode}
+%\setmainfont{TeX Gyre Schola}
+%\setmainfont{TeX Gyre Bonum}
+%\setmainfont{TeX Gyre Termes}
+%\setmainfont{Libertinus Serif}
+%\setmainfont{Erewhon}
+%\setmainfont{Vollkorn}
+%\setmainfont{Cabin}
+%\setmainfont{Medieval Sharp}
+%\setmainfont{TeX Gyre Pagella}
+%\setmainfont{Latin Modern Roman}
+%\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont[Numbers=OldStyle]{Junicode}
+
+\usepackage{verse}
+%\usepackage{showframe}
+
+\begin{document}
+\thispagestyle{empty}
+\settowidth{\versewidth}{Mon Dieu, quelle guerre cruelle !}
+
+\poemtitle[]{\small%
+\begin{tabular}{c}Plaintes d’un chrétien\end{tabular}\\
+\begin{tabular}{c}sur les contrariétés\end{tabular}\\
+\begin{tabular}{c}qu’il éprouve\end{tabular}\\
+\begin{tabular}{c}au-dedans de lui-même\end{tabular}
+}
+\medskip
+\begin{verse}[\versewidth]
+Mon Dieu, quelle guerre cruelle !\\
+Je trouve deux hommes en moi :\\
+L’un veut que, plein d’amour pour toi,\\
+Mon cœur te soit toujours fidèle ;\\
+L’autre, à tes volontés rebelle,\\
+Me révolte contre ta loi.
+
+L’un, tout esprit et tout céleste,\\
+Veut qu’au ciel sans cesse attaché,\\
+Et des biens éternels touché,\\
+Je compte pour rien tout le reste ;\\
+Et l’autre, par son poids funeste,\\
+Me tient vers la terre penché.
+
+Hélas ! en guerre avec moi-même,\\
+Où pourrai-je trouver la paix ?\\
+Je veux, et n’accomplis jamais.\\
+Je veux ; mais (ô misère extrême !)\\
+Je ne fais pas le bien que j’aime,\\
+Et je fais le mal que je hais.
+
+Ô grâce, ô rayon salutaire !\\
+Viens me mettre avec moi d’accord.\\
+Et, domptant par un doux effort\\
+Cet homme qui t’est si contraire,\\
+Fais ton esclave volontaire\\
+De cet esclave de la mort.
+\end{verse}
+\medskip
+\begin{flushright}
+Jean \textsc{Racine}, \textit{Cantiques spirituels}.
+\end{flushright}
+
+\end{document}
