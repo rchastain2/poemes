@@ -5,13 +5,12 @@
 \usepackage{microtype}
 \usepackage{geometry}
 \geometry{margin=24mm}
-\usepackage{comment}
 
 \usepackage{dialogue}
 
 \setmainfont{EBGaramond}
 [
-  Extension      = .otf ,
+  Extension      = .otf,
   UprightFont    = *-Regular,
   ItalicFont     = *-Italic,
   BoldFont       = *-Bold,
@@ -26,27 +25,28 @@
 \thispagestyle{empty}
 \setlength\parindent{0pt}
 
-\begin{comment}
-PREMIER ACTE
-Premier Tableau : La Croix
-FRÈRE LEON
-J'ai peur, sur la route, quand s'agrandissent et s'obscurcissent les fenêtres, quand ne rougissent plus les feuilles du poinsettia.
-\textsc{saint françois}
-Ô terre !... Ô ciel !... Frère Léon ?
-FRÈRE LÉON
-Mon père ?
-\textsc{saint françois}
-Même si le Frère Mineur rendait la vue aux aveugles, l'ouïe aux sourds, la parole aux muets : sache que tout cela n'est pas la joie, la joie parfaite.
-\end{comment}
-
 \begin{center}
 \large
 Troisième Tableau : Le Baiser au Lépreux
 \end{center}
 
+\direct{Près d’Assise, à l’hôpital Saint-Sauveur-des-Murs. Une salle basse dans la léproserie. Un banc, deux escabeaux. Au fond de la scène, à droite, une fenêtre ouverte sur une ruelle sombre. Le chœur est sur scène, quasiment invisible.
+
+Au lever du rideau, le Lépreux est assis, tout seul.}
+
 \begin{dialogue}
   \speak{le lépreux} Comment peut-on vivre une telle vie ? Tous ces Frères qui veulent me rendre service... S'ils enduraient ce que j'endure, s'ils souffraient ce que je souffre ! Ha !... Ha !... peut-être se révolteraient-ils à leur tour...
+\end{dialogue}
+
+\direct{Entre saint François. Saint François recule. Il recule une seconde fois. Il s’approche.}
+
+\begin{dialogue}
   \speak{saint françois} Dieu te donne la paix, frère bien-aimé !
+\end{dialogue}
+
+\direct{Saint François s’assied à côté du Lépreux.}
+
+\begin{dialogue}
   \speak{le lépreux} Quelle paix puis-je avoir de Dieu, qui m'a enlevé tout bien, m'a rendu tout pourri et fétide ?
   \speak{saint françois} Les infirmités du corps nous sont données pour le salut de notre âme. Comment comprendre la croix, si on n'en a pas porté un petit morceau ?
   \speak{le lépreux} J'en ai assez ! assez ! et plus qu'assez ! Les Frères que tu as mis à mon service, ils me soignent mal ! Au lieu de me soulager, ils m'infligent leurs horribles bavardages, leurs remèdes inutiles !
@@ -57,6 +57,11 @@ Troisième Tableau : Le Baiser au Lépreux
   \speak{saint françois} Pauvres Frères, ils font tout ce qu'ils peuvent...
   \speak{le lépreux} Autrefois, j'étais jeune et fort ! Maintenant, je suis comme une feuille frappée de mildiou : tout jaune, avec des taches noires...
   \speak{saint françois} Si l'homme intérieur est beau, il apparaîtra glorieux à l'heure de la résurrection.
+\end{dialogue}
+
+\direct{L’Ange apparaît derrière la fenêtre, dans le noir de la ruelle. Un éclairage irréel permet de distinguer en partie son visage, son costume et ses ailes. Il reste invisible pour saint François et le Lépreux, qui lui tournent le dos.}
+
+\begin{dialogue}
   \speak{l'ange} Lépreux, ton cœur t'accuse.
   \speak{le lépreux} D'où vient cette voix ?
   \speak{saint françois} Écoute !...
@@ -67,17 +72,28 @@ Troisième Tableau : Le Baiser au Lépreux
   \speak{le lépreux} Que dit-il ? Je ne comprends pas...
   \speak{saint françois} Il dit : \frquote{Ton cœur t'accuse, mais Dieu est plus grand que ton cœur.}
   \speak{l'ange} Mais Dieu est tout amour, et qui demeure dans l'amour demeure en Dieu, et Dieu en lui.
+\end{dialogue}
+
+\direct{L’Ange disparaît.}
+
+\begin{dialogue}
   \speak{le lépreux} Pardonne-moi, Père, je récrimine toujours... Tes Frères m'appellent le Lépreux !
   \speak{saint françois} Où se trouve la tristesse, que je chante la joie !
   \speak{le lépreux} Je sais bien que je suis horrible, et je me dégoûte moi-même...
   \speak{saint françois} Où se trouve l'erreur, que j'ouvre la vérité.
   \speak{le lépreux} Mais toi, tu es bon ! Tu m'appelles mon ami, mon frère, mon fils !
   \speak{saint françois} Où se trouvent les ténèbres, que j'apporte la lumière ! Pardonne-moi mon fils : je ne t'ai pas assez aimé.
-  \speak{le lépreux} \direct{Saint Francois embrasse le Lépreux. Saint François s'écarte. Le Lépreux se tient debout, guéri, les bras levés, complètement transformé.} Miracle ! Regarde, Père, regarde : les taches ont disparu de ma peau ! Je suis guéri !
+\end{dialogue}
+
+\direct{Saint François embrasse le Lépreux. Saint François s’écarte. Le Lépreux se tient debout, guéri, les bras levés, complètement transformé.}
+
+\begin{dialogue}
+  \speak{le lépreux} Miracle ! Regarde, Père, regarde : les taches ont disparu de ma peau ! Je suis guéri !
 \end{dialogue}
 
 \begin{flushright}
 \large
-\textsc{messiaen}, \textit{Saint François d'Assise.}
+\textsc{Olivier Messiaen}, \textit{Saint François d'Assise.}
 \end{flushright}
+
 \end{document}
