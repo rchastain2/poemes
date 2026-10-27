@@ -1,0 +1,28 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{poeme}
+
+\newif\ifpoeme@ancien
+\DeclareOption{ancien}{\poeme@ancientrue}
+\ProcessOptions\relax
+
+\RequirePackage{fontspec}
+\RequirePackage{microtype}
+\RequirePackage{verse}
+
+\ifpoeme@ancien
+  \defaultfontfeatures{Ligatures=Discretionary}
+\fi
+
+\setmainfont{EBGaramond}
+[
+  Extension      = .otf,
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-Bold,
+  BoldItalicFont = *-BoldItalic,
+  Numbers        = Lowercase
+]
+
+\pagestyle{empty}
+
+\endinput

@@ -1,14 +1,19 @@
 
 SOURCES := $(wildcard *.tex)
-TARGETS := $(SOURCES:%.tex=%)
+NAMES   := $(SOURCES:%.tex=%)
+TARGETS := $(SOURCES:%.tex=%.pdf)
 
 all: $(TARGETS)
 
-%: %.tex
-	@lualatex --jobname=$@ $<
+$(NAMES): %: %.pdf
+
+%.pdf: %.tex poeme.sty
+	@lualatex --jobname=$* $<
 
 clean:
 	@rm -fv *.aux *.log
 
 distclean: clean
 	@rm -fv *.pdf
+
+.PHONY: all clean $(NAMES) distclean

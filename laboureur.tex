@@ -1,21 +1,13 @@
-\documentclass[14pt,a4paper,french]{scrartcl}
+\documentclass[fontsize=14pt,DIV=calc,a4paper,french]{scrartcl}
 
-\usepackage{verse}
 \usepackage{babel}
-\usepackage{microtype}
-
-\usepackage{fontspec}
-\setmainfont[Ligatures=Discretionary]{EB Garamond}
-%\setmainfont[Ligatures=Discretionary]{Palatino Linotype}
-
-% https://tex.stackexchange.com/a/123669/295527
-%\frenchsetup{StandardItemLabels=true}
+\usepackage{poeme}
 
 \begin{document}
 
 \settowidth{\versewidth}{Un riche laboureur, sentant sa mort prochaine,}
 
-\begin{verse}\poemtitle{Le Laboureur et ses Enfants.}
+\begin{verse}\poemtitle{Le Laboureur et ses Enfants}
 \vin Travaillez, prenez de la peine:\\
 \vin C'est le fonds\footnotemark{} qui manque le moins.\\
 Un riche laboureur, sentant sa mort prochaine,\\
@@ -29,7 +21,7 @@ Remuez votre champ dès qu'on aura fait l'oût :\\
 Creusez, fouillez, bêchez ; ne laissez nulle place\\
 \vin Où la main ne passe et repasse.\\
 Le père mort, les fils vous retournent le champ,\\
-Deça, delà, partout ; si bien qu'au bout de l'an\\
+Deçà, delà, partout ; si bien qu'au bout de l'an\\
 \vin Il en rapporta davantage.\\
 D'argent, point de caché. Mais le père fut sage\\
 \vin De leur montrer, avant sa mort,\\
@@ -41,11 +33,9 @@ D'argent, point de caché. Mais le père fut sage\\
 \textsc{La Fontaine}, \textit{Fables}.
 \end{flushright}
 
-\footnotetext{Un \textit{fonds}, c'est :
-\begin{itemize}
-\item\primo Le sol d'un champ, d'une terre, d'un domaine. Cultiver un fonds. Un bon fonds. Il ne faut pas bâtir sur le fonds d'autrui.
-\item\secundo Par extension, une somme d'argent plus ou moins considérable destinée à quelque usage. Trouver un fonds. Dissiper un fonds. Avoir des fonds considérables.
-\item\tertio Un bien, un capital quelconque, par opposition aux revenus qu'il produit.
-\end{itemize}}
+\footnotetext{Un \textit{fonds}, c'est :\\
+\primo Le sol d'un champ, d'une terre, d'un domaine. Cultiver un fonds. Un bon fonds. Il ne faut pas bâtir sur le fonds d'autrui.\\
+\secundo Par extension, une somme d'argent plus ou moins considérable destinée à quelque usage. Trouver un fonds. Dissiper un fonds. Avoir des fonds considérables.\\
+\tertio Un bien, un capital quelconque, par opposition aux revenus qu'il produit.}
 
 \end{document}

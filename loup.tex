@@ -1,47 +1,17 @@
 \documentclass[12pt,a4paper,french]{scrartcl}
 
 \usepackage{babel}
-\usepackage{microtype}
-
-\usepackage{fontspec}
-%\setmainfont[Ligatures=Discretionary]{EB Garamond}
-%\setmainfont[Ligatures=Discretionary]{Palatino Linotype}
-\setmainfont{EBGaramond}
-[
-  Extension      = .otf ,
-  UprightFont    = *-Regular,
-  ItalicFont     = *-Italic,
-  BoldFont       = *-Bold,
-  BoldItalicFont = *-BoldItalic,
-  Numbers        = Lowercase,
-  Ligatures      = Discretionary,
-  Style          = Swash
-]
-%\defaultfontfeatures{Ligatures=TeX}
-%\setmainfont{UnifrakturMaguntia}
-%\setmainfont{Junicode}
-%\setmainfont{TeX Gyre Schola}
-%\setmainfont{TeX Gyre Bonum}
-%\setmainfont{TeX Gyre Termes}
-%\setmainfont{Libertinus Serif}
-%\setmainfont{Erewhon}
-%\setmainfont{Vollkorn}
-%\setmainfont{Cabin}
-%\setmainfont{Medieval Sharp}
-%\setmainfont{TeX Gyre Pagella}
-%\setmainfont{Latin Modern Roman}
-%\defaultfontfeatures{Ligatures=TeX}
-%\setmainfont[Numbers=OldStyle]{Junicode}
-
-\usepackage{verse}
-%\usepackage{showframe}
+\usepackage{poeme}
+\usepackage[margin=20mm]{geometry}
 
 \begin{document}
-\thispagestyle{empty}
-%\settowidth{\versewidth}{Frères humains, qui après nous vivez,}
+\settowidth{\versewidth}{Le plus vieux des chasseurs qui s’étaient mis en quête}
 
-%\begin{verse}[\versewidth]\poemtitle{La Mort du Loup.}
-\begin{verse}\poemtitle{La Mort du Loup.}
+\begin{verse}[\versewidth]\poemtitle{La Mort du Loup}
+\hspace{0.5\versewidth}{\poemtitlefont\small%
+I
+}%
+
 Les nuages couraient sur la lune enflammée\\
 Comme sur l’incendie on voit fuir la fumée,\\
 Et les bois étaient noirs jusques à l’horizon.\\

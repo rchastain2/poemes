@@ -1,43 +1,10 @@
-\documentclass[11pt,a4paper,french]{scrartcl}
+\documentclass[12pt,a4paper,french]{scrartcl}
 
 \usepackage{babel}
-\usepackage{microtype}
-
-\usepackage{fontspec}
-%\setmainfont[Ligatures=Discretionary]{EB Garamond}
-%\setmainfont[Ligatures=Discretionary]{Palatino Linotype}
-\setmainfont{EBGaramond}
-[
-  Extension      = .otf ,
-  UprightFont    = *-Regular,
-  ItalicFont     = *-Italic,
-  BoldFont       = *-Bold,
-  BoldItalicFont = *-BoldItalic,
-  Numbers        = Lowercase,
-  Ligatures      = Discretionary,
-  Style          = Swash
-]
-%\defaultfontfeatures{Ligatures=TeX}
-%\setmainfont{UnifrakturMaguntia}
-%\setmainfont{Junicode}
-%\setmainfont{TeX Gyre Schola}
-%\setmainfont{TeX Gyre Bonum}
-%\setmainfont{TeX Gyre Termes}
-%\setmainfont{Libertinus Serif}
-%\setmainfont{Erewhon}
-%\setmainfont{Vollkorn}
-%\setmainfont{Cabin}
-%\setmainfont{Medieval Sharp}
-%\setmainfont{TeX Gyre Pagella}
-%\setmainfont{Latin Modern Roman}
-%\defaultfontfeatures{Ligatures=TeX}
-%\setmainfont[Numbers=OldStyle]{Junicode}
-
-\usepackage{verse}
-%\usepackage{showframe}
+\usepackage[ancien]{poeme}
+\usepackage[margin=20mm]{geometry}
 
 \begin{document}
-\thispagestyle{empty}
 \settowidth{\versewidth}{Frères humains, qui après nous vivez,}
 
 % L'EPITAPHE
@@ -90,7 +57,7 @@ Puis çà, puis là, comme le vent varie,\\
 A son plaisir sans cesser nous charie,\\
 Plus becquetez d'oyseaulx que dez à coudre.\\
 Ne soyez donc de nostre confrairie,\\
-Mais priez Dieu que tous nous vueille absoudre !
+Mais priez Dieu que tous nous vueille absouldre !
 
 \hspace{0.5\versewidth}{\poemtitlefont\small%
 ENVOI.
@@ -102,6 +69,11 @@ A luy n'ayons que faire ne que souldre.\\
 Hommes, icy n'usez de mocquerie\\
 Mais priez Dieu que tous nous vueille absouldre !
 \end{verse}
+
+\begin{flushright}
+\large
+\textsc{Villon}, \textit{Poésies diverses}.
+\end{flushright}
 
 % https://gallica.bnf.fr/ark:/12148/bpt6k6468587z/f129.item.texteImage
 

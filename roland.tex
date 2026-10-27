@@ -1,37 +1,22 @@
 \documentclass[a4paper,14pt,french]{extarticle}
 
-\usepackage{fontspec}
 \usepackage[french]{babel}
-\usepackage{microtype}
-\usepackage{verse}
+\usepackage{poeme}
 
-\setmainfont{EBGaramond}
-[
-  Extension      = .otf ,
-  UprightFont    = *-Regular,
-  ItalicFont     = *-Italic,
-  BoldFont       = *-Bold,
-  BoldItalicFont = *-BoldItalic,
-  Numbers        = Lowercase,
-  Ligatures      = Discretionary,
-  Style          = Swash
-]
-% https://texnique.fr/osqa/questions/8423/lualatex-et-ligatures
-
-\settowidth{\versewidth}{Félons païens furent mal inspirés de venir aux défilés :}
+\settowidth{\versewidth}{Félons païens furent mal inspirés de venir aux défilés :}
 
 \usepackage[margin=16mm,bmargin=24mm]{geometry}
 
-%\pagestyle{empty}
-
 \begin{document}
-%\thispagestyle{empty}
 
-\poemtitle{L'entêtement de Roland.}
+\poemtitle{L'entêtement de Roland}
 
-\small
-\textit{Alors que l'armée de Charlemagne, revenant d'Espagne, traverse les Pyrénées, son arrière-garde est attaquée par les Sarrasins.}
-\normalsize
+\begin{center}
+\begin{minipage}{\versewidth}
+\small\itshape
+Alors que l'armée de Charlemagne, revenant d'Espagne, traverse les Pyrénées, son arrière-garde est attaquée par les Sarrasins.
+\end{minipage}
+\end{center}
 
 \begin{verse}[\versewidth]
 Olivier dit : Païens ont grande force,\\
